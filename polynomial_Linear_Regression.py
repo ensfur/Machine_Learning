@@ -1,7 +1,4 @@
 # Polynomial Linear Regression
-# Degreenin kaç olacağı kritik öneme sahip.
-# Hassas olsun diye çok büyük değer vermemek lazım.
-# Çok büyük değer verilince saçma grafik çıkarmaya başlıyor.
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -21,19 +18,3 @@ lrFitted = lr.fit(xPoly,y)
 plt.scatter(x,y)
 plt.plot(x, lrFitted.predict(xPoly), color="red")
 plt.show()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
