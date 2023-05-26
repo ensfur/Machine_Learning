@@ -1,5 +1,4 @@
 # Simple Linear Regression
-# Doğrusal Tahmin algoritması
 
 import pandas as pd
 import matplotlib.pyplot as plt
