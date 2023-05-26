@@ -1,6 +1,4 @@
 # Support Vector Regression
-# Normalize edilmiş datayı öğrenirken daha doğru sonuç elde ediyor.
-# Grafikte biraz daha aykırı duran sonuçlarda o kadar başarılı değil.
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -18,20 +16,6 @@ y1 = sc.fit_transform(y)
 sv = SVR(kernel="rbf")
 sv.fit(x1, y1)
 
-
 plt.scatter(x1,y1)
 plt.plot(x1, sv.predict(x1), color="red")
 plt.show()
-
-
-
-
-
-
-
-
-
-
-
-
-
