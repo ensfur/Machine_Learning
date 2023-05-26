@@ -1,6 +1,4 @@
 # Random Forest Regression
-# Random Forest Regression yönteminde diğer öğrenme algoritmalarının
-# ortalaması alınıyor. Bu şekilde daha kararlı bir sonuç elde ediliyor.
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -17,20 +15,3 @@ rf.fit(x, y)
 plt.scatter(x, y)
 plt.plot(x, rf.predict(x))
 plt.show()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
