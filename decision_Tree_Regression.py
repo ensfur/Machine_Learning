@@ -1,6 +1,4 @@
 # Decision Tree Regression
-# Bu algoritmada Tree içinde gezinerek doğru değeri bulmaya çalışıyor.
-# Ara değer bulmaz. Treede en uygun değeri bulup onu sonuç olarak gösterir.
 
 import numpy as np
 import pandas as pd
@@ -25,27 +23,6 @@ plt.scatter(x,y)
 plt.plot(x1, dt.predict(x1), color="red")
 
 plt.show()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
