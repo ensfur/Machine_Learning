@@ -1,7 +1,4 @@
 # R Square Error Teorisi
-# R square error teorisinde oluşturulan line ile gerçek değer arasındaki
-# farkın karesi alınıp toplanır. 1'e ne kadar yakın sonuç çıkarsa 
-# o kadar iyi bir yöntem kullanılmış olur.
 
 import pandas as pd
 import matplotlib.pyplot as plt
